@@ -14,7 +14,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
-#DATABASE_OPTIONS = {"init_command": "SET storage_engine=InnoDB", }
+DATABASE_OPTIONS = {"init_command": "SET storage_engine=InnoDB", }
 
 
 # Local time zone for this installation. Choices can be found here:
