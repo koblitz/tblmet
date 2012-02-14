@@ -1,0 +1,172 @@
+"id_atributo","tipo_valor","nome_atributo_cabecalho_coluna","legenda","descricao","referencia","unidade_utilizada"
+1,3,"amostra_dna","s_n","se foi ou não extraído DNA do indivduo",1,
+2,3,"anilha",,"o numero/nome da anilha",1,
+3,2,"antebraco",,"o tamanho da medida do ante braço",1,"cm"
+4,2,"cabeca_corpo",,"Comprimento da medida cabeça_corpo",1,"cm"
+5,3,"capturado","s_n","se o indivíduo foi ou não capturado.",1,
+6,2,"cauda",,"tamanho do cauda",1,"cm"
+7,2,"ccap",,"Comprimento máximo entre a base da cauda e limite externo dos ultimos escudos distais do plastrao e da carapaca.",1,"mm"
+8,2,"cclc",,"Comprimento máximo retilíneo da cauda",1,"mm"
+9,3,"coleta",,"se o indivíduo foi ou não coletado (nesse caso deve-se informar o nome da instituição para onde foi ou será enviado o indivíduo)",1,
+10,3,"coletor2",,"nome do segundo coletor que fez o registro. Regras: colocar o primeiro e ultimo nome sem acento. minuscula e separados. os nome e sobre nome. pelo caracter underline (_).",1,
+11,2,"crc",,"medida comprimento máximo retilíneo da carapa",1,"mm"
+12,2,"crp",,"Comprimento máximo retilíneo do plastrão",1,"mm"
+13,2,"cb",,"Comprimento da cabeça.",1,"mm"
+14,1,"data soltura",,"para os indivíduos marcados. se foi necessário mais de um dia de marcação e outras observações anotar a data da soltura",1,
+15,3,"fezes",,"o que foi identificado nas fezes do animal",1,
+16,3,"furo",,"local ou identificacao de onde foi feito o furo no animal",1,
+17,3,"habitat_registro",,"habitat em que o indivíduo foi encontrado",1,
+18,2,"idade",,"quando há um metodo preciso e é possível identificar a idade em anos/meses do animal",1,"em meses"
+19,3,"idade_aproximada","j_a","quando não há um metodo preciso e identifica-se o animal por ser jovem ou adulto",1,
+20,3,"marca_tinta",,"A identificação da marca de tinta dada ao animal ",1,
+21,3,"marca_serra",,"A identificação da marca de serra dada ao animal ",1,
+22,2,"marcacao",,,1,
+23,2,"medida_comp_t",,"medida do comprimento total do indivíduo. Deve estar explicado por grupo o que significa",1,"cm"
+24,3,"medido_em_campo","s_n","se o indivuiduo foi medido em campo ou não",1,
+25,3,"muda",,"se o indivuduo está em época de muda ou não",1,
+26,4,"n_sanguessugas",,"numero de sanguessugas encontrados no corpo do indivíduo",1,
+27,4,"n_de_individuos",,"numero de indivíduos",1,
+28,3,"n_tombamento",,"numero do tombamento",1,
+29,3,"nome_instituicao",,"nome da instituição que recebeu ou receberá o indivíduo para o tombamento",1,
+30,3,"numero_coleta",,"numero do indivíduo coletado dado pelo pesquisador de campo.",1,
+31,4,"numero_da_rede",,"o numero da rede em que o indivíduo foi coletado",1,
+32,6,"obs",,"quaisquer observacão que não esta descito nos atributos",1,
+33,2,"orelha",,"tamanho da orelha",1,
+34,3,"ossificacao",,"percentagem de ossificacao do cranio",1,"percentagem"
+35,3,"ovada","s_n","se o indivíduo está ou não ovado",1,
+36,2,"pata",,"tamanho da pata",1,"cm"
+37,2,"pe",,"tamanho do pé",1,"cm"
+38,2,"peso_g",,"peso do indivíduo. sem saco.",1,"gramas"
+39,2,"peso_kg",,"peso do indivíduo. sem saco.",1,"kilos"
+40,2,"peso_saco",,"peso do saco",1,"gramas"
+41,2,"peso_total",,"peso do indivíduo mais o peso do saco",1,"gramas"
+42,3,"placa",,"quando visivel o estagio da placa incubatoria",1,
+43,3,"ponto_gps",,"numero do ponto gps",1,
+44,3,"posto",,"indica em que posto (estação) dentro da unidade amostral encontrou-se o indivíduo",1,
+45,3,"preparacao",,"como foi a preparacão do indivíduo. Pode ser fluido. alcool 70%. Ou pode ser seco _forma de pele.",1,
+46,3,"recaptura","s_n","Identifica se o indivíduo doi recapturao.",1,
+47,3,"sangue",,"Indica. quando marcado. a coleta de sangue e coleta de sangue",1,
+48,3,"sexo","m_f","sexo do indivíduo",1,
+49,5,"tag",,,1,
+50,3,"tecidos",,"se foi retirado amostra para o tecido",1,
+51,3,"tipo_gaiola",,"identificar tipo de gaiola que foi coletado o animal (Tomahowk. Shermnan)",1,
+52,3,"tipo_registro",,"se foi oauditivo_visual_olfativo_fotografico",1,
+53,2,"trago",,"órgão de definião taxonomica do grupo",1,"cm"
+54,3,"situacao","s_n","Se o coletor tem certeza da especie identificada ou não. Para observacoes se coleta.",1,
+55,3,"gonodas",,,1,
+56,3,"estomago",,,1,
+57,2,"dist_parcela",,"distancia que o indivíduo foi observado a partir da parcela",1,"mm"
+58,2,"dist_percorrida",,"distancia percorrida real pela amostragem",1,"m"
+59,4,"n_de_redes",,"numero de redes utilizadas no experimento",1,
+60,4,"tempo_aberto",,"tempo em que as armadilhas ficaram abertas",1,"min"
+61,2,"Armf_1_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+62,2,"Armf_2_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+63,2,"Armf_3_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+64,2,"Armf_4_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+65,2,"Armf_5_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+66,2,"Armf_6_6",,"percentagem desse tipo de areia desse local. Areia muito fina",3,"grama por kilo"
+67,2,"Arf_1_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+68,2,"Arf_2_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+69,2,"Arf_3_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+70,2,"Arf_4_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+71,2,"Arf_5_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+72,2,"Arf_6_6",,"percentagem desse tipo de areia desse local. Areia fina",3,"grama por kilo"
+73,2,"Arm_1_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+74,2,"Arm_2_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+75,2,"Arm_3_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+76,2,"Arm_4_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+77,2,"Arm_5_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+78,2,"Arm_6_6",,"percentagem desse tipo de areia desse local. Areia media",3,"grama por kilo"
+79,2,"Arg_1_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+80,2,"Arg_2_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+81,2,"Arg_3_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+82,2,"Arg_4_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+83,2,"Arg_5_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+84,2,"Arg_6_6",,"percentagem desse tipo de areia desse local. Areia grossa",3,"grama por kilo"
+85,2,"Armg_1_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+86,2,"Armg_2_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+87,2,"Armg_3_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+88,2,"Armg_4_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+89,2,"Armg_5_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+90,2,"Armg_6_6",,"percentagem desse tipo de areia desse local. Areia muito grossa.",3,"grama por kilo"
+91,2,"Ag_1_6",,"percentagem de Argila desse local",3,"grama por kilo"
+92,2,"Ag_2_6",,"percentagem de Argila desse local",3,"grama por kilo"
+93,2,"Ag_3_6",,"percentagem de Argila desse local",3,"grama por kilo"
+94,2,"Ag_4_6",,"percentagem de Argila desse local",3,"grama por kilo"
+95,2,"Ag_5_6",,"percentagem de Argila desse local",3,"grama por kilo"
+96,2,"Ag_6_6",,"percentagem de Argila desse local",3,"grama por kilo"
+97,2,"Sl_1_6",,"percentagem de Silte desse local",3,"grama por kilo"
+98,2,"Sl_2_6",,"percentagem de Silte desse local",3,"grama por kilo"
+99,2,"Sl_3_6",,"percentagem de Silte desse local",3,"grama por kilo"
+100,2,"Sl_4_6",,"percentagem de Silte desse local",3,"grama por kilo"
+101,2,"Sl_5_6",,"percentagem de Silte desse local",3,"grama por kilo"
+102,2,"Sl_6_6",,"percentagem de Silte desse local",3,"grama por kilo"
+103,3,"P_1_6",,"quantidade de Fosforo desse amostra",3,
+104,3,"P_2_6",,"quantidade de Fosforo desse amostra",3,
+105,3,"P_3_6",,"quantidade de Fosforo desse amostra",3,
+106,3,"P_4_6",,"quantidade de Fosforo desse amostra",3,
+107,3,"P_5_6",,"quantidade de Fosforo desse amostra",3,
+108,3,"P_6_6",,"quantidade de Fosforo desse amostra",3,
+109,3,"N_1_6",,"quantidade de Nitrogenio desse amostra",3,
+110,3,"N_2_6",,"quantidade de Nitrogenio desse amostra",3,
+111,3,"N_3_6",,"quantidade de Nitrogenio desse amostra",3,
+112,3,"N_4_6",,"quantidade de Nitrogenio desse amostra",3,
+113,3,"N_5_6",,"quantidade de Nitrogenio desse amostra",3,
+114,3,"N_6_6",,"quantidade de Nitrogenio desse amostra",3,
+115,3,"Ca_1_6",,"quantidade de Calcio desse amostra",3,
+116,3,"Ca_2_6",,"quantidade de Calcio desse amostra",3,
+117,3,"Ca_3_6",,"quantidade de Calcio desse amostra",3,
+118,3,"Ca_4_6",,"quantidade de Calcio desse amostra",3,
+119,3,"Ca_5_6",,"quantidade de Calcio desse amostra",3,
+120,3,"Ca_6_6",,"quantidade de Calcio desse amostra",3,
+121,3,"Mn_1_6",,"quantidade de Manganes desse amostra",3,
+122,3,"Mn_2_6",,"quantidade de Manganes desse amostra",3,
+123,3,"Mn_3_6",,"quantidade de Manganes desse amostra",3,
+124,3,"Mn_4_6",,"quantidade de Manganes desse amostra",3,
+125,3,"Mn_5_6",,"quantidade de Manganes desse amostra",3,
+126,3,"Mn_6_6",,"quantidade de Manganes desse amostra",3,
+127,3,"C_1_6",,"quantidade de Carbono desse amostra",3,
+128,3,"C_2_6",,"quantidade de Carbono desse amostra",3,
+129,3,"C_3_6",,"quantidade de Carbono desse amostra",3,
+130,3,"C_4_6",,"quantidade de Carbono desse amostra",3,
+131,3,"C_5_6",,"quantidade de Carbono desse amostra",3,
+132,3,"C_6_6",,"quantidade de Carbono desse amostra",3,
+133,3,"K_1_6",,"quantidade de potassio desse amostra",3,
+134,3,"K_2_6",,"quantidade de potassio desse amostra",3,
+135,3,"K_3_6",,"quantidade de potassio desse amostra",3,
+136,3,"K_4_6",,"quantidade de potassio desse amostra",3,
+137,3,"K_5_6",,"quantidade de potassio desse amostra",3,
+138,3,"K_6_6",,"quantidade de potassio desse amostra",3,
+139,3,"Na_1_6",,"quantidade de sodio desse amostra",3,
+140,3,"Na_2_6",,"quantidade de sodio desse amostra",3,
+141,3,"Na_3_6",,"quantidade de sodio desse amostra",3,
+142,3,"Na_4_6",,"quantidade de sodio desse amostra",3,
+143,3,"Na_5_6",,"quantidade de sodio desse amostra",3,
+144,3,"Na_6_6",,"quantidade de sodio desse amostra",3,
+145,3,"Zn_1_6",,"quantidade de Zinco desse amostra",3,
+146,3,"Zn_2_6",,"quantidade de Zinco desse amostra",3,
+147,3,"Zn_3_6",,"quantidade de Zinco desse amostra",3,
+148,3,"Zn_4_6",,"quantidade de Zinco desse amostra",3,
+149,3,"Zn_5_6",,"quantidade de Zinco desse amostra",3,
+150,3,"Zn_6_6",,"quantidade de Zinco desse amostra",3,
+151,3,"Cu_1_6",,"quantidade de Cobre desse amostra",3,
+152,3,"Cu_2_6",,"quantidade de Cobre desse amostra",3,
+153,3,"Cu_3_6",,"quantidade de Cobre desse amostra",3,
+154,3,"Cu_4_6",,"quantidade de Cobre desse amostra",3,
+155,3,"Cu_5_6",,"quantidade de Cobre desse amostra",3,
+156,3,"Cu_6_6",,"quantidade de Cobre desse amostra",3,
+157,3,"Al_1_6",,"quantidade de Aluminio desse amostra",3,
+158,3,"Al_2_6",,"quantidade de Aluminio desse amostra",3,
+159,3,"Al_3_6",,"quantidade de Aluminio desse amostra",3,
+160,3,"Al_4_6",,"quantidade de Aluminio desse amostra",3,
+161,3,"Al_5_6",,"quantidade de Aluminio desse amostra",3,
+162,3,"Al_6_6",,"quantidade de Aluminio desse amostra",3,
+163,2,"perct_chuva",,"percentagem de chuva ao longo do periodo do levantamento",3,"percentagem"
+164,2,"dap",,"diametro na altura do peito",2,
+165,2,"das",,"diametro na altura do solo",2,
+166,2,"comprimento",,"cumprimento",2,
+167,2,"altura",,"altura",2,
+168,3,"floracao","s_n","fenologia de flores. Se possui ou não.",2,
+169,3,"frutos","s_n","fenologia de frutos. Se possui ou não.",2,
+170,2,"cobertura",,"quantidade de área que o indivíduo possui de dossel.",2,"metro_quadradro"
+171,2,"cobertura_grupo",,"quantidade de área que o grupo  ocupa.",2,"metro_quadradro"
