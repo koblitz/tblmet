@@ -1,0 +1,17 @@
+copy tbl_apetrechos to '/home/koblitz/django/tblmet/seguranca/tbl_apetrechos.csv' with delimiter ',';
+copy tbl_atr_ets to '/home/koblitz/django/tblmet/seguranca/tbl_atr_ets.csv' with delimiter ',';
+copy tbl_instrumentais to '/home/koblitz/django/tblmet/seguranca/tbl_instrumentais.csv' with delimiter ',';
+copy tbl_locais to '/home/koblitz/django/tblmet/seguranca/tbl_locais.csv' with delimiter ',';
+copy tbl_metatets to '/home/koblitz/django/tblmet/seguranca/tbl_metatets.csv' with delimiter ',';
+copy tbl_metins to '/home/koblitz/django/tblmet/seguranca/tbl_metins.csv' with delimiter ',';
+copy tbl_metodos to '/home/koblitz/django/tblmet/seguranca/tbl_metodos.csv' with delimiter ',';
+copy tbl_unidades to '/home/koblitz/django/tblmet/seguranca/tbl_unidades.csv' with delimiter ',';
+
+copy tbl_apetrechos from '/home/koblitz/django/tblmet/seguranca/tbl_apetrechos.csv' with delimiter ',';
+copy tbl_atr_ets from '/home/koblitz/django/tblmet/seguranca/tbl_atr_ets.csv' with delimiter ',';
+copy tbl_instrumentais from '/home/koblitz/django/tblmet/seguranca/tbl_instrumentais.csv' with delimiter ',';
+copy tbl_locais from '/home/koblitz/django/tblmet/seguranca/tbl_locais.csv' with delimiter ',';
+copy tbl_metatets from '/home/koblitz/django/tblmet/seguranca/tbl_metatets.csv' with delimiter ',';
+copy tbl_metins from '/home/koblitz/django/tblmet/seguranca/tbl_metins.csv' with delimiter ',';
+copy tbl_metodos from '/home/koblitz/django/tblmet/seguranca/tbl_metodos.csv' with delimiter ',';
+copy tbl_unidades from '/home/koblitz/django/tblmet/seguranca/tbl_unidades.csv' with delimiter ',';

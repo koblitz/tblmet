@@ -1,0 +1,13 @@
+1,dist_entre_apet_hor,distancia horizontal entre apetrechos,caracteriza a distancia horizontal entre apetrechos dentro de uma estação.
+2,dist_entre_apet_vert,distancia vertical entre apetrechos,caracteriza a distancia vertical entre apetrechos dentro de uma estação.
+3,dist_entre_est_hor,distancia horizontal entre estações,caracteriza a distancia horizontal entre estações de amostragem dentro de uma estação. uma estação é definida como um conjunto de apetrechos.
+4,dist_entre_est_vert,distancia vertical entre estações,caracteriza a distancia vertical entre estações de amostragem dentro de uma estação. uma estação é definida como um conjunto de apetrechos.
+5,um_ciclo_leva,um ciclo por levantamento,caracteriza um ciclo em um levantamento. 24 horas\, 2 dias. Ou quando um esforço é definido também  como uma caminha em uma parcela.
+6,n_est_por_ua,numero de estações por unidade amostral,numero de estações por unidade amostral
+7,formaY,forma em ypsilon,utilizado basicamente em arranjo de armadilha em queda.\r\n
+8,n_repe_campanha,numero de repetições por campanha,Em uma campanha podem existir mais de um levantamento em uma mesma Unidade Amostral. 
+9,h_inicial,hora inicial,marca a hora indicada para se iniciar um levantamento. Medida em hora:min.
+10,h_final,hora final,marca a hora indicada para se finalizar um levantamento. Medida em hora:min.
+11,n_h_por_leva,numero de horas por levantamento,tempo gasto por levantamento.
+12,consec,consecutivo,para indicar se as repetições do levantamento em uma unidade amostral deve ser ou não em dias consecutivos.
+13,despesca,despesca,tempo utilizado para realizar uma retirada de amostras nas redes de malhadeira.

@@ -1,0 +1,46 @@
+
+<html>
+<title>
+BioLic
+</title>
+<header> </header>
+<table cellspacing="3" cellpadding="3" border="2" width="100%">
+<tr>
+<td width="500", valign="top">
+
+<h1> Inclua:{{nome}} </h1>
+<form action="." method="POST">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <input type="submit" value="Enviar!" class="button">
+<p>
+    <a href="/"> voltar a tela inicial  </a>
+</p>
+    </td>
+
+<td align="left">
+<h1>{{nome}} existentes:</h1>
+<p>{{c}}</p>
+
+<font size="2" face="arial" color="red">
+
+{% for p in b %}
+
+ <li>{{p}}</li>
+{% endfor %}
+{% for pp in bb %}
+<li>{{pp}}<a href="/operacoes/{{pp}}/delete/"> deletar </a></li>
+
+{% endfor %}
+<p>
+{{a}}
+</p>
+
+</td>
+
+</tr>
+</font>
+</table>  
+</form>
+<body>
+<body>

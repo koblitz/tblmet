@@ -1,0 +1,158 @@
+
+<html>
+<title>
+BioLic
+</title>
+<header> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> </header>
+<body>
+<font size="4" face="times new roman" color="black">
+----------BioLic----------
+<p>
+Sistemas de Informação da Biodiversidade do Licenciamento Ambiental Federal - IBAMA
+<p>
+<font size="4" face="times new roman" color="black">
+<P ALIGN="JUSTIFY">
+DEFINIÇÃO DOS MÉTODOS PADRONIZADOS
+</P>
+<p>
+
+<table cellspacing="3" cellpadding="3" border="3" >
+<tr>
+<font size="3" face="arial" color="black">
+Esforço dos Metodos
+<br>
+<font size="2" face="arial" color="black">
+(metodo: atributo da estacao - atributo // obs)
+<font size="2" face="arial" color="red">
+{% for p in meto %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+<p>
+<br>
+<tr>
+<font size="3" face="arial" color="black">
+Apetrechos
+<br>
+<font size="2" face="arial" color="black">
+(apetrecho: nome // descrição)
+<font size="2" face="arial" color="red">
+{% for p in ape %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+<p>
+<br>
+<tr>
+<font size="3" face="arial" color="black">
+Metodos 
+<br>
+<font size="2" face="arial" color="black">
+(nome do atributo - nome por extenso - localidade das amostragens // observações)
+<font size="2" face="arial" color="red">
+{% for p in met %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+
+<p>
+<br>
+<tr>
+<font size="3" face="arial" color="black">
+Atributos da Estação
+<br>
+<font size="2" face="arial" color="black">
+(nome do atributo - nome completo // descrição)
+<font size="2" face="arial" color="red">
+{% for p in atrest %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+<p>
+<br>
+<tr>
+<font size="3" face="arial" color="black">
+Caracteristicas dos Apetrechos
+<br>
+<font size="2" face="arial" color="black">
+(apetrecho: atributo // observação)
+<font size="2" face="arial" color="red">
+{% for p in ins %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+<p>
+<br>
+<tr>
+<font size="3" face="arial" color="black">
+Quantidade de Apetrechos por Estação
+<br>
+<font size="2" face="arial" color="black">
+(método: apetrecho - quantidade)
+
+<font size="2" face="arial" color="red">
+{% for p in meins %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+ 
+<p>
+<br><br><br>
+<font size="3" face="times new roman" color="black">
+TABELAS AUXILIARES
+ <tr>
+<font size="3" face="arial" color="black">
+Descrição das unidades
+<br>
+<font size="2" face="arial" color="black">
+(unidade: nome por extenso)
+<font size="2" face="arial" color="red">
+{% for p in unid %}
+
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+<p>
+<tr>
+<font size="3" face="arial" color="black">
+Descrição dos atributos
+<br>
+<font size="2" face="arial" color="black">
+(medida: nome // descrição)
+<font size="2" face="arial" color="red">
+{% for p in atrib %}
+ <li>{{p}}</li>
+{% endfor %}
+</tr>
+
+<p>
+    <a href="{%url consultas:uatrsulta %}"> .csv dos atributos</a>
+</p>
+<p>
+    <a href="{%url consultas:umetatetssulta %}"> .csv do esforço das metodologias</a>
+</p>
+<p>
+    <a href="{%url consultas:uunisulta %}"> .csv das unidades utilizadas</a>
+</p>
+<p>
+    <a href="{%url consultas:uapesulta %}"> .csv dos apetrechos utilizados</a>
+</p>
+<p>
+    <a href="{%url consultas:umetsulta %}"> .csv das metodologias</a>
+</p>
+<p>
+    <a href="{%url consultas:uatretssulta %}"> .csv dos atributos das estações</a>
+</p>
+<p>
+    <a href="{%url consultas:uinssulta %}"> .csv das caracteristicas dos apetrechos</a>
+</p>
+<p>
+    <a href="{%url consultas:umetinssulta %}"> .csv da quantidade de apetrechos por estação</a>
+</p>
+
+<p>
+    <a href="/"> voltar a tela inicial  </a>
+</p>
+
+
+</body>

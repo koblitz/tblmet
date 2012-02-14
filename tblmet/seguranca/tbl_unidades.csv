@@ -1,0 +1,13 @@
+62,mm,milimetros,,E,U
+63,m_s,metros por segundo,medida de velocidade,O,U
+64,dia,dia,dia,T,U
+65,m,metro,metros,E,U
+66,mq,metro quadrado,metro quadrado,E,B
+67,su,sem unidade,quando não há unidade para medir,O,
+68,hp,horse power,medida de força de motor,O,U
+69,hora,hora,hora,T,U
+70,min,minuto,minuto,T,U
+71,mm_q,milimetro quadrado,milimetro quadrado,E,B
+72,cm,centímetro,,E,U
+73,km,quilometro,,E,U
+83,s,segundo,,T,U
