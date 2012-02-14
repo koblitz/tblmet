@@ -146,4 +146,4 @@ LOGGING = {
     }
 }
 
-execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
+execfile(os.path.join(PROJECT_PATH,'tblmet/settings_local.include'))
