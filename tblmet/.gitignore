@@ -1,5 +1,0 @@
-settings_local.include
-*.pyc
-bin
-include
-lib
