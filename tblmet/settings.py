@@ -14,8 +14,19 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
-DATABASE_OPTIONS = {"init_command": "SET storage_engine=InnoDB", }
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'biomet',                      # Or path to database file if using sqlite3.
+        'USER': 'postgres',                      # Not used with sqlite3.
+  #      'PASSWORD': 'bd',                  # Not used with sqlite3.
+        'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
+ #       'OPTIONS': {
+ #                   'init_command': 'SET storage_engine=INNODB', 
+ #                   }, 
+    }
+}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -146,4 +157,4 @@ LOGGING = {
     }
 }
 
-execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
+#execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
