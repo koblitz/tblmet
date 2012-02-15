@@ -3,3 +3,4 @@ settings_local.include
 bin
 include
 lib
+deploy.sh
