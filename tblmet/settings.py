@@ -19,7 +19,9 @@ MANAGERS = ADMINS
 
 
 if 'True'==os.environ.get('UPALELE', 'False'):
-    DATABASES = {
+    execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
+else:
+   DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
             'NAME': 'biomet',                      # Or path to database file if using sqlite3.
@@ -32,8 +34,6 @@ if 'True'==os.environ.get('UPALELE', 'False'):
      #                   }, 
         }
     }
-else:
-    execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
