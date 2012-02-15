@@ -8,7 +8,7 @@ from os import environ
 
 PROJECT_DIR =	os.path.dirname(__file__)
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -18,7 +18,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
-if 'True'==os.environ.get('UPALELE', 'False'):
+if os.environ['DJANGO_SETTINGS_MODULE']=='src.settings':
     execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
 else:
    DATABASES = {
