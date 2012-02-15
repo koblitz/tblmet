@@ -3,14 +3,8 @@
 
 import os
 from os import environ
-from sys import exc_info
-from urlparse import urlparse, uses_netloc
 
-#from S3 import CallingFormat
 
-#from common import *
-
-env = lambda e, d: environ[e] if environ.has_key(e) else d
 
 PROJECT_DIR =	os.path.dirname(__file__)
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
@@ -23,44 +17,23 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-uses_netloc.append('postgres')
-uses_netloc.append('mysql')
 
-try:
-    if environ.has_key('LD_LIBRARY_PATH'):
-        url = urlparse(environ['DATABASE_URL'])
-        DATABASES['default'] = {
-            'NAME': url.path[1:],
-            'USER': url.username,
-            'PASSWORD': url.password,
-            'HOST': url.hostname,
-            'PORT': url.port,
-        }
-        if url.scheme == 'postgres':
-            DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
-        if url.scheme == 'mysql':
-            DATABASES['default']['ENGINE'] = 'django.db.backends.mysql'
-    else :
-        execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
-except:
-    execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
-
-#if 'True'==os.environ.get('LD_LIBRARY_PATH', 'False'):
-#    DATABASES = {
-#        'default': {
-#            'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-#            'NAME': 'biomet',                      # Or path to database file if using sqlite3.
-#            'USER': 'postgres',                      # Not used with sqlite3.
-#            'PASSWORD': os.environ.get('PASSWORD',  ''), 
-#            'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
-#            'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
+if 'True'==os.environ.get('LD_LIBRARY_PATH', 'False'):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+            'NAME': 'biomet',                      # Or path to database file if using sqlite3.
+            'USER': 'postgres',                      # Not used with sqlite3.
+            'PASSWORD': os.environ.get('PASSWORD',  ''), 
+            'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
+            'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
      #       'OPTIONS': {
      #                   'init_command': 'SET storage_engine=INNODB', 
      #                   }, 
-#        }
-#    }
-#else:
-#    execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
+        }
+    }
+else:
+    execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
