@@ -8,7 +8,7 @@ from os import environ
 
 PROJECT_DIR =	os.path.dirname(__file__)
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -18,7 +18,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 
-if os.environ['DJANGO_SETTINGS_MODULE']=='src.settings':
+if 'root'==environ.get('LOGNAME', 'False'):
     execfile(os.path.join(PROJECT_PATH,'settings_local.include'))
 else:
    DATABASES = {
@@ -26,7 +26,7 @@ else:
             'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
             'NAME': 'biomet',                      # Or path to database file if using sqlite3.
             'USER': 'postgres',                      # Not used with sqlite3.
-            'PASSWORD': os.environ.get('PASSWORD',  ''), 
+            #'PASSWORD': 'bd',#os.environ.get('PASSWORD',  ''), 
             'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
             'PORT': '5432',                      # Set to empty string for default. Not used with sqlite3.
      #       'OPTIONS': {
