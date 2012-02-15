@@ -13,7 +13,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-if 'True'==os.environ.get('PASSWORD', 'False'):
+if 'True'==os.environ.get('LD_LIBRARY_PATH', 'False'):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
