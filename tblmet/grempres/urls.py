@@ -4,22 +4,16 @@ from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('grmetodos.views',
+urlpatterns = patterns('grempres.views',
     # Examples:
     # url(r'^$', 'ttso.views.home', name='home'),
     # url(r'^ttso/', include('ttso.foo.urls')),
-    url (r'^unidade/', 'uni', name='uni'),
-    url (r'^atributo/', 'atr', name='atr'),
-    url (r'^metodo/', 'met', name='met'),
-    url (r'^apetrecho/', 'ape',  name='ape'),
-    url (r'^local/', 'loc',  name='loc'),
-    url (r'^atributos-estacoes/', 'atrest',  name='atrest'),
-    url (r'^caracteriza-apetrecho/', 'int',  name='int'),
-    url (r'^quantidade_apetrecho-por-estacao/', 'metint',  name='metint'), 
-    url (r'^caracterize-esforco-espaco/', 'meatun',  name='meatun'),    
+    url (r'^empreendimento/', 'cademp', name='cademp'),
+    url (r'^empresas/', 'cadmpa', name='cadmpa'),
+    url (r'^pessoas/', 'cadpes', name='cadpes'),
     url (r'^(\d+)/sucesso/$', 'success',  name='success'), 
     url (r'^(\d+)/delete/$', 'delete',  name='delete'),
-    url (r'^dumpall/', 'dumpall',  name='dumpall'),
+    #url (r'^dumpall/', 'dumpall',  name='dumpall'),
     #url(r'^/')
 
     # Uncomment the admin/doc line below to enable admin documentation:

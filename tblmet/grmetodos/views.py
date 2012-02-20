@@ -9,6 +9,7 @@ from django.views.generic.simple import direct_to_template
 from django.conf import settings
 from django.http import HttpResponse
 from django.template	import loader, Context
+
 #from django.utils.encoding import encode
     
 def uni (request):
@@ -174,4 +175,10 @@ def delete (request, pk):
     return render_to_response('inmet_delete.html',  {'a':a,  'inmet':inmet})
  #   return HttpResponseRedirect('inmet_new.html')
 
-
+def dumpall(request):
+    pass
+    #    a='tblmet/seguranca/data.json'
+#    response=dump(a)
+    #response=HttpResponse(mimetype='text/javascript')
+#    response['Content-Disposition']='attachment; filename=dump.json'
+#    return response

@@ -52,6 +52,8 @@ class Migration(SchemaMigration):
             ('local', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['grmetodos.TblLocais'])),
             ('nome', self.gf('django.db.models.fields.CharField')(max_length='100', blank=True)),
             ('obs', self.gf('django.db.models.fields.TextField')(blank=True)),
+            ('var_biodiv', self.gf('django.db.models.fields.TextField')(blank=True)),
+            ('var_esforco', self.gf('django.db.models.fields.TextField')(blank=True)),
         ))
         db.send_create_signal('grmetodos', ['TblMetodos'])
 
@@ -187,7 +189,9 @@ class Migration(SchemaMigration):
             'local': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['grmetodos.TblLocais']"}),
             'metodo': ('django.db.models.fields.CharField', [], {'unique': 'True', 'max_length': "'100'"}),
             'nome': ('django.db.models.fields.CharField', [], {'max_length': "'100'", 'blank': 'True'}),
-            'obs': ('django.db.models.fields.TextField', [], {'blank': 'True'})
+            'obs': ('django.db.models.fields.TextField', [], {'blank': 'True'}),
+            'var_biodiv': ('django.db.models.fields.TextField', [], {'blank': 'True'}),
+            'var_esforco': ('django.db.models.fields.TextField', [], {'blank': 'True'})
         },
         'grmetodos.tblunidades': {
             'Meta': {'object_name': 'TblUnidades', 'db_table': "'tbl_unidades'"},

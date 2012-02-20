@@ -12,13 +12,16 @@ urlpatterns = patterns('django.views.generic.simple',
     url (r'^$',  'direct_to_template', {'template':'index.html'}), 
      (r'^operacoes/',  include ('grmetodos.urls', namespace= 'grmetodos')),
      (r'^consultas/',  include ('consultas.urls', namespace= 'consultas')),
+     (r'^empresas/',  include ('grempres.urls', namespace='grempres')),
      #(r'^operacoes/',  include ('core.urls', namespace='core')), 
 
      
      #(r'^con/',  include ('consultas.urls',  namespace='consultas')), 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+
+    # Uncomment the next line to enable the admin:
 )
-urlpatterns += patterns('',
+urlpatterns += patterns('', 
     url(r'^admin/', include(admin.site.urls)),
 )

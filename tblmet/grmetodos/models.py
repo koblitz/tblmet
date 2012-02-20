@@ -1,6 +1,7 @@
 #-*- coding: utf-8 -*-
 from django.db import models
 
+
 class TblUnidadesManager(models.Manager):
   
     def sulta(self):
@@ -207,6 +208,8 @@ class TblMetodos(models.Model):
     local=models.ForeignKey(TblLocais)
     nome=models.CharField(u'nome por extenso',  max_length='100',  blank=True)
     obs=models.TextField(u'Observação',  blank=True)
+    var_biodiv=models.TextField(blank=True)
+    var_esforco=models.TextField(blank=True)
     objects=models.Manager()
 #    metodo=TblMetodosManager()
     class Meta:

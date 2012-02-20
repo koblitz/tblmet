@@ -1,0 +1,3952 @@
+[
+  {
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "contenttype", 
+      "name": "content type", 
+      "app_label": "contenttypes"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "group", 
+      "name": "group", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "logentry", 
+      "name": "log entry", 
+      "app_label": "admin"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "message", 
+      "name": "message", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "migrationhistory", 
+      "name": "migration history", 
+      "app_label": "south"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "permission", 
+      "name": "permission", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "session", 
+      "name": "session", 
+      "app_label": "sessions"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "site", 
+      "name": "site", 
+      "app_label": "sites"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabiodados", 
+      "name": "tbl abio dados", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticosdate", 
+      "name": "tbl abioticos date", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticosfloat", 
+      "name": "tbl abioticos float", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticosinteger", 
+      "name": "tbl abioticos integer", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticostext", 
+      "name": "tbl abioticos text", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticostime", 
+      "name": "tbl abioticos time", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblabioticosvarchar", 
+      "name": "tbl abioticos varchar", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaisdados", 
+      "name": "tbl animais dados", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaisdate", 
+      "name": "tbl animais date", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaisfloat", 
+      "name": "tbl animais float", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaisinteger", 
+      "name": "tbl animais integer", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaistext", 
+      "name": "tbl animais text", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaistime", 
+      "name": "tbl animais time", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblanimaisvarchar", 
+      "name": "tbl animais varchar", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblapetrechos", 
+      "name": "tbl apetrechos", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblatrets", 
+      "name": "tbl atr ets", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblatribs", 
+      "name": "tbl atribs", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblatributos", 
+      "name": "tbl atributos", 
+      "app_label": "gratributos"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblcampanhas", 
+      "name": "tbl campanhas", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblcoordenadas", 
+      "name": "tbl coordenadas", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbldadoscoletaavulsa", 
+      "name": "tbl dados coleta avulsa", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblempreendimentos", 
+      "name": "tbl empreendimentos", 
+      "app_label": "grempres"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblempresas", 
+      "name": "tbl empresas", 
+      "app_label": "grempres"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblgradesmodulos", 
+      "name": "tbl grades modulos", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblinstrumentais", 
+      "name": "tbl instrumentais", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbllevantamentos", 
+      "name": "tbl levantamentos", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbllocais", 
+      "name": "tbl locais", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblmetatets", 
+      "name": "tbl met at ets", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblmetins", 
+      "name": "tbl met ins", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblmetodos", 
+      "name": "tbl metodos", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblparcelas", 
+      "name": "tbl parcelas", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblparcelascoord", 
+      "name": "tbl parcelas coord", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblpessoas", 
+      "name": "tbl pessoas", 
+      "app_label": "grempres"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantasdados", 
+      "name": "tbl plantas dados", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantasdate", 
+      "name": "tbl plantas date", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantasfloat", 
+      "name": "tbl plantas float", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantasinteger", 
+      "name": "tbl plantas integer", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantastext", 
+      "name": "tbl plantas text", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantastime", 
+      "name": "tbl plantas time", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblplantasvarchar", 
+      "name": "tbl plantas varchar", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblsegmentos", 
+      "name": "tbl segmentos", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbltrilhas", 
+      "name": "tbl trilhas", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbltrilhascoord", 
+      "name": "tbl trilhas coord", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbluaavulsas", 
+      "name": "tbl ua avulsas", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tbluaavulsascoord", 
+      "name": "tbl ua avulsas coord", 
+      "app_label": "grdados"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "tblunidades", 
+      "name": "tbl unidades", 
+      "app_label": "grmetodos"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+      "model": "user", 
+      "name": "user", 
+      "app_label": "auth"
+    }
+  }, 
+  {
+    "pk": "fb998aef6300169bff53f0e6602f2c35", 
+    "model": "sessions.session", 
+    "fields": {
+      "expire_date": "2012-03-04 23:28:26", 
+      "session_data": "Zjk4MzcwYTdhNThkN2E0ZTAzZGNjYTU2YTlkZmE3YzA1NjcyODY2ODqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "example.com", 
+      "name": "example.com"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "south.migrationhistory", 
+    "fields": {
+      "applied": "2012-02-20 05:16:15", 
+      "app_name": "gratributos", 
+      "migration": "0001_initial"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "south.migrationhistory", 
+    "fields": {
+      "applied": "2012-02-20 05:16:17", 
+      "app_name": "grmetodos", 
+      "migration": "0001_initial"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "south.migrationhistory", 
+    "fields": {
+      "applied": "2012-02-20 05:16:18", 
+      "app_name": "grempres", 
+      "migration": "0001_initial"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "south.migrationhistory", 
+    "fields": {
+      "applied": "2012-02-20 05:16:23", 
+      "app_name": "grdados", 
+      "migration": "0001_initial"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "vol", 
+      "descricao": "volume", 
+      "nome": "volume"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "area", 
+      "descricao": "area", 
+      "nome": "area"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "distancia", 
+      "descricao": "distancia", 
+      "nome": "distancia"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "largura", 
+      "descricao": "largura", 
+      "nome": "largura"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "entre_nos", 
+      "descricao": "entre os n\u00f3s de redes. Media da diagonal.\r\n", 
+      "nome": "entre n\u00f3s"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "tempo", 
+      "descricao": "tempo", 
+      "nome": "tempo"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "comp", 
+      "descricao": "", 
+      "nome": "comprimento"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblatribs", 
+    "fields": {
+      "medida": "alt", 
+      "descricao": "", 
+      "nome": "altura"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "l", 
+      "esp_tem": "E", 
+      "dimensao": "T", 
+      "descricao": "", 
+      "nome": "Litro"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "mm", 
+      "esp_tem": "E", 
+      "dimensao": "U", 
+      "descricao": "", 
+      "nome": "milimetros"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "m_s", 
+      "esp_tem": "O", 
+      "dimensao": "U", 
+      "descricao": "medida de velocidade", 
+      "nome": "metros por segundo"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "dia", 
+      "esp_tem": "T", 
+      "dimensao": "U", 
+      "descricao": "dia", 
+      "nome": "dia"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "m", 
+      "esp_tem": "E", 
+      "dimensao": "U", 
+      "descricao": "metros", 
+      "nome": "metro"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "mq", 
+      "esp_tem": "E", 
+      "dimensao": "B", 
+      "descricao": "metro quadrado", 
+      "nome": "metro quadrado"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "su", 
+      "esp_tem": "O", 
+      "dimensao": "", 
+      "descricao": "quando n\u00e3o h\u00e1 unidade para medir", 
+      "nome": "sem unidade"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "hp", 
+      "esp_tem": "O", 
+      "dimensao": "U", 
+      "descricao": "medida de for\u00e7a de motor", 
+      "nome": "horse power"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "hora", 
+      "esp_tem": "T", 
+      "dimensao": "U", 
+      "descricao": "hora", 
+      "nome": "hora"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "min", 
+      "esp_tem": "T", 
+      "dimensao": "U", 
+      "descricao": "minuto", 
+      "nome": "minuto"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "mm_q", 
+      "esp_tem": "E", 
+      "dimensao": "B", 
+      "descricao": "milimetro quadrado", 
+      "nome": "milimetro quadrado"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "km", 
+      "esp_tem": "E", 
+      "dimensao": "U", 
+      "descricao": "", 
+      "nome": "quilometro"
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "s", 
+      "esp_tem": "T", 
+      "dimensao": "U", 
+      "descricao": "", 
+      "nome": "segundo"
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "h", 
+      "esp_tem": "T", 
+      "dimensao": "U", 
+      "descricao": "hora", 
+      "nome": "hora"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "grmetodos.tblunidades", 
+    "fields": {
+      "unidade": "cm", 
+      "esp_tem": "E", 
+      "dimensao": "U", 
+      "descricao": "", 
+      "nome": "centimetro"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "parcelagua", 
+      "descricao": "parcela aquatica definida"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "parcelarip", 
+      "descricao": "parcela rip\u00e1ria definida"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "transectot", 
+      "descricao": "transecto terrestre definido"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "parcelat", 
+      "descricao": "parcela terrestre definida"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "ua_avulsat", 
+      "descricao": "unidades amostrais terrestres n\u00e3o estabelecidas/definidas."
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "ua_avulsagua", 
+      "descricao": "unidades amostrais aqu\u00e1ticas n\u00e3o estabelecidas/definidas."
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tbllocais", 
+    "fields": {
+      "local": "pontoagua", 
+      "descricao": "unidades amostras aquaticas definidas, mas pontuais"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "balde70", 
+      "descricao": "balde de 70 Litros", 
+      "nome": "balde 70L"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "balde40", 
+      "descricao": "balde de 40 Litros", 
+      "nome": "balde 40L"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "balde60", 
+      "descricao": "balde de 60 Litros", 
+      "nome": "balde 60L"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "balde80", 
+      "descricao": "balde de 80 litros", 
+      "nome": "balde de 80L"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "rede_neblina", 
+      "descricao": "rede de neblina utilizada em avifauna", 
+      "nome": "rede de neblina"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "caminhada", 
+      "descricao": "definida por uma velocidade especifica", 
+      "nome": "caminhada"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar30", 
+      "descricao": "rede de emalhar de 30mm entre n\u00f3s", 
+      "nome": "rede de emalhar 30mm"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar40", 
+      "descricao": "rede de emalhar de 40mm entre n\u00f3s", 
+      "nome": "rede de emalhar 40mm"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar50", 
+      "descricao": "rede de emalhar de 50mm entre n\u00f3s", 
+      "nome": "rede de emalhar 50mm"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar60", 
+      "descricao": "rede de emalhar de 60mm entre n\u00f3s", 
+      "nome": "rede de emalhar 60mm"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar70", 
+      "descricao": "rede de emalhar de 70mm entre n\u00f3s", 
+      "nome": "rede de emalhar 70mm"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar80", 
+      "descricao": "rede de emalhar de 80mm entre n\u00f3s", 
+      "nome": "rede de emalhar 80mm"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar90", 
+      "descricao": "rede de emalhar de 90mm entre n\u00f3s", 
+      "nome": "rede de emalhar 90mm"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar100", 
+      "descricao": "rede de emalhar de 100mm entre n\u00f3s", 
+      "nome": "rede de emalhar 100mm"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar120", 
+      "descricao": "rede de emalhar de 120mm entre n\u00f3s", 
+      "nome": "rede de emalhar 120mm"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar140", 
+      "descricao": "rede de emalhar de 140mm entre n\u00f3s", 
+      "nome": "rede de emalhar 140mm"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar160", 
+      "descricao": "rede de emalhar de 160mm entre n\u00f3s", 
+      "nome": "rede de emalhar 160mm"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar180", 
+      "descricao": "rede de emalhar de 180mm entre n\u00f3s", 
+      "nome": "rede de emalhar 180mm"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "emalhar200", 
+      "descricao": "rede de emalhar de 200mm entre n\u00f3s", 
+      "nome": "rede de emalhar 200mm"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "redecerco", 
+      "descricao": "", 
+      "nome": "rede de cerco"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "rede_arrasto", 
+      "descricao": "", 
+      "nome": "rede de arrasto bent\u00f4nico"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "anzol", 
+      "descricao": "", 
+      "nome": "anzol"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "espinhel", 
+      "descricao": "", 
+      "nome": "espinhel"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "balde2", 
+      "descricao": "balde de 2 Litros", 
+      "nome": "balde 2L"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "odor_PET", 
+      "descricao": "", 
+      "nome": "armadilha odor\u00edfera de PET"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "subp_cupim", 
+      "descricao": "", 
+      "nome": "subparcela cupim"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "peneira", 
+      "descricao": "", 
+      "nome": "peneira"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "rede_ictio", 
+      "descricao": "", 
+      "nome": "rede_ictioplancton"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "tarrafa", 
+      "descricao": "", 
+      "nome": "rede_tarrafa"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "grmetodos.tblapetrechos", 
+    "fields": {
+      "apetrecho": "winkler", 
+      "descricao": "", 
+      "nome": "winkler"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "malhadeira", 
+      "nome": "malhadeira", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 8, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "pitfall", 
+      "nome": "pitfall trap", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 4, 
+      "obs": "Teot\u00f4nio (TE), Morrinho (MO), Jaci-Paran\u00e1 (JP), Ilha do B\u00fafalo (IB) e Ilha da Pedra (IP).\r\nInicialmente, dez sistemas foram instalados em cada m\u00f3dulo, nas parcelas \u201c0\u201d, \u201c500\u201d, \u201c1000\u201d, \u201c2000\u201d e \u201c3000\u201d \r\n"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "pitfall_PET", 
+      "nome": "pitfall com garrafa PET", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 5, 
+      "obs": "Pote rente ao solo;\r\nIsca de f\u00edgado de boi, suspensa;\r\nTampa cobrindo o pote, de altura vari\u00e1vel;\r\nNo pote coletor foram adicionados 300 ml de uma  mistura de detergente e solu\u00e7\u00e3o salina saturada (25 % V/V de NaCl) (Lee et al., 2009; Schiffler et al,. 2003)."
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "odor_ab", 
+      "nome": "armadilhas odor\u00edferas", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 5, 
+      "obs": "Armadilhas odor\u00edferas utilizado para abelhas euglossina; iscas: Cineol, Salicilato de Metila, Cinamato de Metila e Vanilina; cada isca em uma armadilha; disposi\u00e7\u00e3o aleat\u00f3ria;"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "cupim", 
+      "nome": "busca ativa de cupim", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 5, 
+      "obs": "coleta ativa; todos micro-habitas superf\u00edcie; 15cm de profundidade"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "cerco", 
+      "nome": "rede_cerco", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 8, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "peneirada", 
+      "nome": "peneirada aqu\u00e1tica", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 2, 
+      "obs": "peneirada em um transecto por m\u00f3dulo"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "rede_ictio", 
+      "nome": "rede_ictioplancton", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 8, 
+      "obs": "diamentro da boca 50cm-uso de fluximetro medir volocidade"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "tarrafada", 
+      "nome": "tarrafada", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 8, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "grmetodos.tblmetodos", 
+    "fields": {
+      "metodo": "form_winkler", 
+      "nome": "formiga winkler", 
+      "var_biodiv": "", 
+      "var_esforco": "", 
+      "local": 5, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "dist_entre_apet_hor", 
+      "descricao": "caracteriza a distancia horizontal entre apetrechos dentro de uma esta\u00e7\u00e3o.", 
+      "nome": "distancia horizontal entre apetrechos"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "dist_entre_apet_vert", 
+      "descricao": "caracteriza a distancia vertical entre apetrechos dentro de uma esta\u00e7\u00e3o.", 
+      "nome": "distancia vertical entre apetrechos"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "dist_entre_est_hor", 
+      "descricao": "caracteriza a distancia horizontal entre esta\u00e7\u00f5es de amostragem dentro de uma esta\u00e7\u00e3o. uma esta\u00e7\u00e3o \u00e9 definida como um conjunto de apetrechos.", 
+      "nome": "distancia horizontal entre esta\u00e7\u00f5es"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "dist_entre_est_vert", 
+      "descricao": "caracteriza a distancia vertical entre esta\u00e7\u00f5es de amostragem dentro de uma esta\u00e7\u00e3o. uma esta\u00e7\u00e3o \u00e9 definida como um conjunto de apetrechos.", 
+      "nome": "distancia vertical entre esta\u00e7\u00f5es"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "um_ciclo_leva", 
+      "descricao": "caracteriza um ciclo em um levantamento. 24 horas, 2 dias. Ou quando um esfor\u00e7o \u00e9 definido tamb\u00e9m  como uma caminha em uma parcela.", 
+      "nome": "um ciclo por levantamento"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "n_est_por_ua", 
+      "descricao": "numero de esta\u00e7\u00f5es por unidade amostral", 
+      "nome": "numero de esta\u00e7\u00f5es por unidade amostral"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "formaY", 
+      "descricao": "utilizado basicamente em arranjo de armadilha em queda.\r\n", 
+      "nome": "forma em ypsilon"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "n_repe_campanha", 
+      "descricao": "Em uma campanha podem existir mais de um levantamento em uma mesma Unidade Amostral. ", 
+      "nome": "numero de repeti\u00e7\u00f5es por campanha"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "h_inicial", 
+      "descricao": "marca a hora indicada para se iniciar um levantamento. Medida em hora:min.", 
+      "nome": "hora inicial"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "h_final", 
+      "descricao": "marca a hora indicada para se finalizar um levantamento. Medida em hora:min.", 
+      "nome": "hora final"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "n_h_por_leva", 
+      "descricao": "tempo gasto por levantamento.", 
+      "nome": "numero de horas por levantamento"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "consec", 
+      "descricao": "para indicar se as repeti\u00e7\u00f5es do levantamento em uma unidade amostral deve ser ou n\u00e3o em dias consecutivos.", 
+      "nome": "consecutivo"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "despesca", 
+      "descricao": "tempo utilizado para realizar uma retirada de amostras nas redes de malhadeira.", 
+      "nome": "despesca"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "alt_solo", 
+      "descricao": "", 
+      "nome": "altura do solo"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "check", 
+      "descricao": "visita aos apetrechos para eventuais manuten\u00e7\u00f5es e re-iscagem, sempre que necess\u00e1rio.", 
+      "nome": "checagem"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "grmetodos.tblatrets", 
+    "fields": {
+      "medida": "A_subst", 
+      "descricao": "", 
+      "nome": "\u00c1rea substrato"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 1, 
+      "valor": 70.0, 
+      "apetrecho": 1, 
+      "obs": "", 
+      "unidade": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 1, 
+      "valor": 40.0, 
+      "apetrecho": 7, 
+      "obs": "", 
+      "unidade": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 1, 
+      "valor": 2.0, 
+      "apetrecho": 33, 
+      "obs": "", 
+      "unidade": 1
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 5, 
+      "valor": 5.0, 
+      "apetrecho": 29, 
+      "obs": "", 
+      "unidade": 62
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 2, 
+      "valor": 10.0, 
+      "apetrecho": 36, 
+      "obs": "subparcelas de 2x5m", 
+      "unidade": 66
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 8, 
+      "valor": 10.0, 
+      "apetrecho": 29, 
+      "obs": "", 
+      "unidade": 65
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 9, 
+      "valor": 5.0, 
+      "apetrecho": 29, 
+      "obs": "", 
+      "unidade": 65
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 7, 
+      "valor": 15.0, 
+      "apetrecho": 31, 
+      "obs": "", 
+      "unidade": 69
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 5, 
+      "valor": 0.25, 
+      "apetrecho": 37, 
+      "obs": "", 
+      "unidade": 62
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "grmetodos.tblinstrumentais", 
+    "fields": {
+      "atributo": 5, 
+      "valor": 4.0, 
+      "apetrecho": 30, 
+      "obs": "", 
+      "unidade": 72
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 16, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 17, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 18, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 19, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 20, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 21, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 22, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 23, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 24, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 25, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 26, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 27, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 28, 
+      "metodo": 1, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 1, 
+      "metodo": 4, 
+      "quantidade": 13
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 33, 
+      "metodo": 5, 
+      "quantidade": 5
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 34, 
+      "metodo": 6, 
+      "quantidade": 4
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 36, 
+      "metodo": 7, 
+      "quantidade": 2
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 29, 
+      "metodo": 8, 
+      "quantidade": 1
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 37, 
+      "metodo": 9, 
+      "quantidade": 3
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "grmetodos.tblmetins", 
+    "fields": {
+      "apetrecho": 40, 
+      "metodo": 12, 
+      "quantidade": 5
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 25.0, 
+      "metodo": 1, 
+      "obs": "variavel"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 69, 
+      "atributo_estacao": 5, 
+      "valor": 24.0, 
+      "metodo": 1, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": null, 
+      "atributo_estacao": 8, 
+      "valor": 1.0, 
+      "metodo": 1, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": null, 
+      "atributo_estacao": 6, 
+      "valor": 1.0, 
+      "metodo": 1, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 69, 
+      "atributo_estacao": 13, 
+      "valor": 6.0, 
+      "metodo": 1, 
+      "obs": "variavel"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 10.0, 
+      "metodo": 4, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": null, 
+      "atributo_estacao": 6, 
+      "valor": 1.0, 
+      "metodo": 4, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 50.0, 
+      "metodo": 4, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 50.0, 
+      "metodo": 5, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 84, 
+      "atributo_estacao": 5, 
+      "valor": 48.0, 
+      "metodo": 5, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 1.0, 
+      "metodo": 6, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 14, 
+      "valor": 2.0, 
+      "metodo": 6, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 84, 
+      "atributo_estacao": 15, 
+      "valor": 24.0, 
+      "metodo": 6, 
+      "obs": "ap\u00f3s in\u00edcio"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 84, 
+      "atributo_estacao": 5, 
+      "valor": 48.0, 
+      "metodo": 6, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 45.0, 
+      "metodo": 7, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 2, 
+      "unidade": 66, 
+      "atributo_estacao": 5, 
+      "valor": 62.799999999999997, 
+      "metodo": 8, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": null, 
+      "atributo_estacao": 6, 
+      "valor": 5.0, 
+      "metodo": 9, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": null, 
+      "atributo_estacao": 6, 
+      "valor": null, 
+      "metodo": 11, 
+      "obs": "3lances por esta\u00e7\u00e3o"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 1, 
+      "valor": 50.0, 
+      "metodo": 12, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 84, 
+      "atributo_estacao": 5, 
+      "valor": 24.0, 
+      "metodo": 12, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": null, 
+      "unidade": 69, 
+      "atributo_estacao": 15, 
+      "valor": 12.0, 
+      "metodo": 12, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 2, 
+      "unidade": 66, 
+      "atributo_estacao": 16, 
+      "valor": 1.0, 
+      "metodo": 12, 
+      "obs": "em cada extrator winkler"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 2, 
+      "unidade": 66, 
+      "atributo_estacao": 16, 
+      "valor": 10.0, 
+      "metodo": 7, 
+      "obs": "2x5m em cada subparcela "
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "grmetodos.tblmetatets", 
+    "fields": {
+      "atributo": 3, 
+      "unidade": 65, 
+      "atributo_estacao": 3, 
+      "valor": 50.0, 
+      "metodo": 9, 
+      "obs": ""
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_logentry", 
+      "name": "Can add log entry", 
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_logentry", 
+      "name": "Can change log entry", 
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_logentry", 
+      "name": "Can delete log entry", 
+      "content_type": [
+        "admin", 
+        "logentry"
+      ]
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_group", 
+      "name": "Can add group", 
+      "content_type": [
+        "auth", 
+        "group"
+      ]
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_group", 
+      "name": "Can change group", 
+      "content_type": [
+        "auth", 
+        "group"
+      ]
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_group", 
+      "name": "Can delete group", 
+      "content_type": [
+        "auth", 
+        "group"
+      ]
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_message", 
+      "name": "Can add message", 
+      "content_type": [
+        "auth", 
+        "message"
+      ]
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_message", 
+      "name": "Can change message", 
+      "content_type": [
+        "auth", 
+        "message"
+      ]
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_message", 
+      "name": "Can delete message", 
+      "content_type": [
+        "auth", 
+        "message"
+      ]
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_permission", 
+      "name": "Can add permission", 
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_permission", 
+      "name": "Can change permission", 
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_permission", 
+      "name": "Can delete permission", 
+      "content_type": [
+        "auth", 
+        "permission"
+      ]
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_user", 
+      "name": "Can add user", 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_user", 
+      "name": "Can change user", 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_user", 
+      "name": "Can delete user", 
+      "content_type": [
+        "auth", 
+        "user"
+      ]
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_contenttype", 
+      "name": "Can add content type", 
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_contenttype", 
+      "name": "Can change content type", 
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_contenttype", 
+      "name": "Can delete content type", 
+      "content_type": [
+        "contenttypes", 
+        "contenttype"
+      ]
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblatributos", 
+      "name": "Can add tbl atributos", 
+      "content_type": [
+        "gratributos", 
+        "tblatributos"
+      ]
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblatributos", 
+      "name": "Can change tbl atributos", 
+      "content_type": [
+        "gratributos", 
+        "tblatributos"
+      ]
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblatributos", 
+      "name": "Can delete tbl atributos", 
+      "content_type": [
+        "gratributos", 
+        "tblatributos"
+      ]
+    }
+  }, 
+  {
+    "pk": 76, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabiodados", 
+      "name": "Can add tbl abio dados", 
+      "content_type": [
+        "grdados", 
+        "tblabiodados"
+      ]
+    }
+  }, 
+  {
+    "pk": 77, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabiodados", 
+      "name": "Can change tbl abio dados", 
+      "content_type": [
+        "grdados", 
+        "tblabiodados"
+      ]
+    }
+  }, 
+  {
+    "pk": 78, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabiodados", 
+      "name": "Can delete tbl abio dados", 
+      "content_type": [
+        "grdados", 
+        "tblabiodados"
+      ]
+    }
+  }, 
+  {
+    "pk": 79, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticosdate", 
+      "name": "Can add tbl abioticos date", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 80, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticosdate", 
+      "name": "Can change tbl abioticos date", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 81, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticosdate", 
+      "name": "Can delete tbl abioticos date", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 82, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticosfloat", 
+      "name": "Can add tbl abioticos float", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 83, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticosfloat", 
+      "name": "Can change tbl abioticos float", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 84, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticosfloat", 
+      "name": "Can delete tbl abioticos float", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 85, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticosinteger", 
+      "name": "Can add tbl abioticos integer", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 86, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticosinteger", 
+      "name": "Can change tbl abioticos integer", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 87, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticosinteger", 
+      "name": "Can delete tbl abioticos integer", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 88, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticostext", 
+      "name": "Can add tbl abioticos text", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostext"
+      ]
+    }
+  }, 
+  {
+    "pk": 89, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticostext", 
+      "name": "Can change tbl abioticos text", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostext"
+      ]
+    }
+  }, 
+  {
+    "pk": 90, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticostext", 
+      "name": "Can delete tbl abioticos text", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostext"
+      ]
+    }
+  }, 
+  {
+    "pk": 91, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticostime", 
+      "name": "Can add tbl abioticos time", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostime"
+      ]
+    }
+  }, 
+  {
+    "pk": 92, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticostime", 
+      "name": "Can change tbl abioticos time", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostime"
+      ]
+    }
+  }, 
+  {
+    "pk": 93, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticostime", 
+      "name": "Can delete tbl abioticos time", 
+      "content_type": [
+        "grdados", 
+        "tblabioticostime"
+      ]
+    }
+  }, 
+  {
+    "pk": 94, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblabioticosvarchar", 
+      "name": "Can add tbl abioticos varchar", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 95, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblabioticosvarchar", 
+      "name": "Can change tbl abioticos varchar", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 96, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblabioticosvarchar", 
+      "name": "Can delete tbl abioticos varchar", 
+      "content_type": [
+        "grdados", 
+        "tblabioticosvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 100, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaisdados", 
+      "name": "Can add tbl animais dados", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 101, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaisdados", 
+      "name": "Can change tbl animais dados", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 102, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaisdados", 
+      "name": "Can delete tbl animais dados", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 103, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaisdate", 
+      "name": "Can add tbl animais date", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 104, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaisdate", 
+      "name": "Can change tbl animais date", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 105, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaisdate", 
+      "name": "Can delete tbl animais date", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 106, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaisfloat", 
+      "name": "Can add tbl animais float", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 107, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaisfloat", 
+      "name": "Can change tbl animais float", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 108, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaisfloat", 
+      "name": "Can delete tbl animais float", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 109, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaisinteger", 
+      "name": "Can add tbl animais integer", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 110, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaisinteger", 
+      "name": "Can change tbl animais integer", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 111, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaisinteger", 
+      "name": "Can delete tbl animais integer", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 112, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaistext", 
+      "name": "Can add tbl animais text", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistext"
+      ]
+    }
+  }, 
+  {
+    "pk": 113, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaistext", 
+      "name": "Can change tbl animais text", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistext"
+      ]
+    }
+  }, 
+  {
+    "pk": 114, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaistext", 
+      "name": "Can delete tbl animais text", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistext"
+      ]
+    }
+  }, 
+  {
+    "pk": 115, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaistime", 
+      "name": "Can add tbl animais time", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistime"
+      ]
+    }
+  }, 
+  {
+    "pk": 116, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaistime", 
+      "name": "Can change tbl animais time", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistime"
+      ]
+    }
+  }, 
+  {
+    "pk": 117, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaistime", 
+      "name": "Can delete tbl animais time", 
+      "content_type": [
+        "grdados", 
+        "tblanimaistime"
+      ]
+    }
+  }, 
+  {
+    "pk": 118, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblanimaisvarchar", 
+      "name": "Can add tbl animais varchar", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 119, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblanimaisvarchar", 
+      "name": "Can change tbl animais varchar", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 120, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblanimaisvarchar", 
+      "name": "Can delete tbl animais varchar", 
+      "content_type": [
+        "grdados", 
+        "tblanimaisvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblcampanhas", 
+      "name": "Can add tbl campanhas", 
+      "content_type": [
+        "grdados", 
+        "tblcampanhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblcampanhas", 
+      "name": "Can change tbl campanhas", 
+      "content_type": [
+        "grdados", 
+        "tblcampanhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblcampanhas", 
+      "name": "Can delete tbl campanhas", 
+      "content_type": [
+        "grdados", 
+        "tblcampanhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblcoordenadas", 
+      "name": "Can add tbl coordenadas", 
+      "content_type": [
+        "grdados", 
+        "tblcoordenadas"
+      ]
+    }
+  }, 
+  {
+    "pk": 74, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblcoordenadas", 
+      "name": "Can change tbl coordenadas", 
+      "content_type": [
+        "grdados", 
+        "tblcoordenadas"
+      ]
+    }
+  }, 
+  {
+    "pk": 75, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblcoordenadas", 
+      "name": "Can delete tbl coordenadas", 
+      "content_type": [
+        "grdados", 
+        "tblcoordenadas"
+      ]
+    }
+  }, 
+  {
+    "pk": 97, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbldadoscoletaavulsa", 
+      "name": "Can add tbl dados coleta avulsa", 
+      "content_type": [
+        "grdados", 
+        "tbldadoscoletaavulsa"
+      ]
+    }
+  }, 
+  {
+    "pk": 98, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbldadoscoletaavulsa", 
+      "name": "Can change tbl dados coleta avulsa", 
+      "content_type": [
+        "grdados", 
+        "tbldadoscoletaavulsa"
+      ]
+    }
+  }, 
+  {
+    "pk": 99, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbldadoscoletaavulsa", 
+      "name": "Can delete tbl dados coleta avulsa", 
+      "content_type": [
+        "grdados", 
+        "tbldadoscoletaavulsa"
+      ]
+    }
+  }, 
+  {
+    "pk": 121, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblgradesmodulos", 
+      "name": "Can add tbl grades modulos", 
+      "content_type": [
+        "grdados", 
+        "tblgradesmodulos"
+      ]
+    }
+  }, 
+  {
+    "pk": 122, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblgradesmodulos", 
+      "name": "Can change tbl grades modulos", 
+      "content_type": [
+        "grdados", 
+        "tblgradesmodulos"
+      ]
+    }
+  }, 
+  {
+    "pk": 123, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblgradesmodulos", 
+      "name": "Can delete tbl grades modulos", 
+      "content_type": [
+        "grdados", 
+        "tblgradesmodulos"
+      ]
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbllevantamentos", 
+      "name": "Can add tbl levantamentos", 
+      "content_type": [
+        "grdados", 
+        "tbllevantamentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbllevantamentos", 
+      "name": "Can change tbl levantamentos", 
+      "content_type": [
+        "grdados", 
+        "tbllevantamentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbllevantamentos", 
+      "name": "Can delete tbl levantamentos", 
+      "content_type": [
+        "grdados", 
+        "tbllevantamentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 127, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblparcelas", 
+      "name": "Can add tbl parcelas", 
+      "content_type": [
+        "grdados", 
+        "tblparcelas"
+      ]
+    }
+  }, 
+  {
+    "pk": 128, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblparcelas", 
+      "name": "Can change tbl parcelas", 
+      "content_type": [
+        "grdados", 
+        "tblparcelas"
+      ]
+    }
+  }, 
+  {
+    "pk": 129, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblparcelas", 
+      "name": "Can delete tbl parcelas", 
+      "content_type": [
+        "grdados", 
+        "tblparcelas"
+      ]
+    }
+  }, 
+  {
+    "pk": 130, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblparcelascoord", 
+      "name": "Can add tbl parcelas coord", 
+      "content_type": [
+        "grdados", 
+        "tblparcelascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 131, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblparcelascoord", 
+      "name": "Can change tbl parcelas coord", 
+      "content_type": [
+        "grdados", 
+        "tblparcelascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 132, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblparcelascoord", 
+      "name": "Can delete tbl parcelas coord", 
+      "content_type": [
+        "grdados", 
+        "tblparcelascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 133, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantasdados", 
+      "name": "Can add tbl plantas dados", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 134, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantasdados", 
+      "name": "Can change tbl plantas dados", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 135, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantasdados", 
+      "name": "Can delete tbl plantas dados", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdados"
+      ]
+    }
+  }, 
+  {
+    "pk": 136, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantasdate", 
+      "name": "Can add tbl plantas date", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 137, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantasdate", 
+      "name": "Can change tbl plantas date", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 138, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantasdate", 
+      "name": "Can delete tbl plantas date", 
+      "content_type": [
+        "grdados", 
+        "tblplantasdate"
+      ]
+    }
+  }, 
+  {
+    "pk": 139, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantasfloat", 
+      "name": "Can add tbl plantas float", 
+      "content_type": [
+        "grdados", 
+        "tblplantasfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 140, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantasfloat", 
+      "name": "Can change tbl plantas float", 
+      "content_type": [
+        "grdados", 
+        "tblplantasfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 141, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantasfloat", 
+      "name": "Can delete tbl plantas float", 
+      "content_type": [
+        "grdados", 
+        "tblplantasfloat"
+      ]
+    }
+  }, 
+  {
+    "pk": 142, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantasinteger", 
+      "name": "Can add tbl plantas integer", 
+      "content_type": [
+        "grdados", 
+        "tblplantasinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 143, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantasinteger", 
+      "name": "Can change tbl plantas integer", 
+      "content_type": [
+        "grdados", 
+        "tblplantasinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 144, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantasinteger", 
+      "name": "Can delete tbl plantas integer", 
+      "content_type": [
+        "grdados", 
+        "tblplantasinteger"
+      ]
+    }
+  }, 
+  {
+    "pk": 145, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantastext", 
+      "name": "Can add tbl plantas text", 
+      "content_type": [
+        "grdados", 
+        "tblplantastext"
+      ]
+    }
+  }, 
+  {
+    "pk": 146, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantastext", 
+      "name": "Can change tbl plantas text", 
+      "content_type": [
+        "grdados", 
+        "tblplantastext"
+      ]
+    }
+  }, 
+  {
+    "pk": 147, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantastext", 
+      "name": "Can delete tbl plantas text", 
+      "content_type": [
+        "grdados", 
+        "tblplantastext"
+      ]
+    }
+  }, 
+  {
+    "pk": 148, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantastime", 
+      "name": "Can add tbl plantas time", 
+      "content_type": [
+        "grdados", 
+        "tblplantastime"
+      ]
+    }
+  }, 
+  {
+    "pk": 149, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantastime", 
+      "name": "Can change tbl plantas time", 
+      "content_type": [
+        "grdados", 
+        "tblplantastime"
+      ]
+    }
+  }, 
+  {
+    "pk": 150, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantastime", 
+      "name": "Can delete tbl plantas time", 
+      "content_type": [
+        "grdados", 
+        "tblplantastime"
+      ]
+    }
+  }, 
+  {
+    "pk": 151, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblplantasvarchar", 
+      "name": "Can add tbl plantas varchar", 
+      "content_type": [
+        "grdados", 
+        "tblplantasvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 152, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblplantasvarchar", 
+      "name": "Can change tbl plantas varchar", 
+      "content_type": [
+        "grdados", 
+        "tblplantasvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 153, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblplantasvarchar", 
+      "name": "Can delete tbl plantas varchar", 
+      "content_type": [
+        "grdados", 
+        "tblplantasvarchar"
+      ]
+    }
+  }, 
+  {
+    "pk": 154, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblsegmentos", 
+      "name": "Can add tbl segmentos", 
+      "content_type": [
+        "grdados", 
+        "tblsegmentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 155, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblsegmentos", 
+      "name": "Can change tbl segmentos", 
+      "content_type": [
+        "grdados", 
+        "tblsegmentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 156, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblsegmentos", 
+      "name": "Can delete tbl segmentos", 
+      "content_type": [
+        "grdados", 
+        "tblsegmentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 124, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbltrilhas", 
+      "name": "Can add tbl trilhas", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 125, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbltrilhas", 
+      "name": "Can change tbl trilhas", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 126, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbltrilhas", 
+      "name": "Can delete tbl trilhas", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhas"
+      ]
+    }
+  }, 
+  {
+    "pk": 157, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbltrilhascoord", 
+      "name": "Can add tbl trilhas coord", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 158, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbltrilhascoord", 
+      "name": "Can change tbl trilhas coord", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 159, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbltrilhascoord", 
+      "name": "Can delete tbl trilhas coord", 
+      "content_type": [
+        "grdados", 
+        "tbltrilhascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 160, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbluaavulsas", 
+      "name": "Can add tbl ua avulsas", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsas"
+      ]
+    }
+  }, 
+  {
+    "pk": 161, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbluaavulsas", 
+      "name": "Can change tbl ua avulsas", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsas"
+      ]
+    }
+  }, 
+  {
+    "pk": 162, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbluaavulsas", 
+      "name": "Can delete tbl ua avulsas", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsas"
+      ]
+    }
+  }, 
+  {
+    "pk": 163, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbluaavulsascoord", 
+      "name": "Can add tbl ua avulsas coord", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 164, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbluaavulsascoord", 
+      "name": "Can change tbl ua avulsas coord", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 165, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbluaavulsascoord", 
+      "name": "Can delete tbl ua avulsas coord", 
+      "content_type": [
+        "grdados", 
+        "tbluaavulsascoord"
+      ]
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblempreendimentos", 
+      "name": "Can add tbl empreendimentos", 
+      "content_type": [
+        "grempres", 
+        "tblempreendimentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblempreendimentos", 
+      "name": "Can change tbl empreendimentos", 
+      "content_type": [
+        "grempres", 
+        "tblempreendimentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblempreendimentos", 
+      "name": "Can delete tbl empreendimentos", 
+      "content_type": [
+        "grempres", 
+        "tblempreendimentos"
+      ]
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblempresas", 
+      "name": "Can add tbl empresas", 
+      "content_type": [
+        "grempres", 
+        "tblempresas"
+      ]
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblempresas", 
+      "name": "Can change tbl empresas", 
+      "content_type": [
+        "grempres", 
+        "tblempresas"
+      ]
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblempresas", 
+      "name": "Can delete tbl empresas", 
+      "content_type": [
+        "grempres", 
+        "tblempresas"
+      ]
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblpessoas", 
+      "name": "Can add tbl pessoas", 
+      "content_type": [
+        "grempres", 
+        "tblpessoas"
+      ]
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblpessoas", 
+      "name": "Can change tbl pessoas", 
+      "content_type": [
+        "grempres", 
+        "tblpessoas"
+      ]
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblpessoas", 
+      "name": "Can delete tbl pessoas", 
+      "content_type": [
+        "grempres", 
+        "tblpessoas"
+      ]
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblapetrechos", 
+      "name": "Can add tbl apetrechos", 
+      "content_type": [
+        "grmetodos", 
+        "tblapetrechos"
+      ]
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblapetrechos", 
+      "name": "Can change tbl apetrechos", 
+      "content_type": [
+        "grmetodos", 
+        "tblapetrechos"
+      ]
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblapetrechos", 
+      "name": "Can delete tbl apetrechos", 
+      "content_type": [
+        "grmetodos", 
+        "tblapetrechos"
+      ]
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblatrets", 
+      "name": "Can add tbl atr ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblatrets"
+      ]
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblatrets", 
+      "name": "Can change tbl atr ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblatrets"
+      ]
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblatrets", 
+      "name": "Can delete tbl atr ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblatrets"
+      ]
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblatribs", 
+      "name": "Can add tbl atribs", 
+      "content_type": [
+        "grmetodos", 
+        "tblatribs"
+      ]
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblatribs", 
+      "name": "Can change tbl atribs", 
+      "content_type": [
+        "grmetodos", 
+        "tblatribs"
+      ]
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblatribs", 
+      "name": "Can delete tbl atribs", 
+      "content_type": [
+        "grmetodos", 
+        "tblatribs"
+      ]
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblinstrumentais", 
+      "name": "Can add tbl instrumentais", 
+      "content_type": [
+        "grmetodos", 
+        "tblinstrumentais"
+      ]
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblinstrumentais", 
+      "name": "Can change tbl instrumentais", 
+      "content_type": [
+        "grmetodos", 
+        "tblinstrumentais"
+      ]
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblinstrumentais", 
+      "name": "Can delete tbl instrumentais", 
+      "content_type": [
+        "grmetodos", 
+        "tblinstrumentais"
+      ]
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tbllocais", 
+      "name": "Can add tbl locais", 
+      "content_type": [
+        "grmetodos", 
+        "tbllocais"
+      ]
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tbllocais", 
+      "name": "Can change tbl locais", 
+      "content_type": [
+        "grmetodos", 
+        "tbllocais"
+      ]
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tbllocais", 
+      "name": "Can delete tbl locais", 
+      "content_type": [
+        "grmetodos", 
+        "tbllocais"
+      ]
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblmetatets", 
+      "name": "Can add tbl met at ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetatets"
+      ]
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblmetatets", 
+      "name": "Can change tbl met at ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetatets"
+      ]
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblmetatets", 
+      "name": "Can delete tbl met at ets", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetatets"
+      ]
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblmetins", 
+      "name": "Can add tbl met ins", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetins"
+      ]
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblmetins", 
+      "name": "Can change tbl met ins", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetins"
+      ]
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblmetins", 
+      "name": "Can delete tbl met ins", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetins"
+      ]
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblmetodos", 
+      "name": "Can add tbl metodos", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetodos"
+      ]
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblmetodos", 
+      "name": "Can change tbl metodos", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetodos"
+      ]
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblmetodos", 
+      "name": "Can delete tbl metodos", 
+      "content_type": [
+        "grmetodos", 
+        "tblmetodos"
+      ]
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_tblunidades", 
+      "name": "Can add tbl unidades", 
+      "content_type": [
+        "grmetodos", 
+        "tblunidades"
+      ]
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_tblunidades", 
+      "name": "Can change tbl unidades", 
+      "content_type": [
+        "grmetodos", 
+        "tblunidades"
+      ]
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_tblunidades", 
+      "name": "Can delete tbl unidades", 
+      "content_type": [
+        "grmetodos", 
+        "tblunidades"
+      ]
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_session", 
+      "name": "Can add session", 
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_session", 
+      "name": "Can change session", 
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_session", 
+      "name": "Can delete session", 
+      "content_type": [
+        "sessions", 
+        "session"
+      ]
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_site", 
+      "name": "Can add site", 
+      "content_type": [
+        "sites", 
+        "site"
+      ]
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_site", 
+      "name": "Can change site", 
+      "content_type": [
+        "sites", 
+        "site"
+      ]
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_site", 
+      "name": "Can delete site", 
+      "content_type": [
+        "sites", 
+        "site"
+      ]
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "add_migrationhistory", 
+      "name": "Can add migration history", 
+      "content_type": [
+        "south", 
+        "migrationhistory"
+      ]
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "change_migrationhistory", 
+      "name": "Can change migration history", 
+      "content_type": [
+        "south", 
+        "migrationhistory"
+      ]
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+      "codename": "delete_migrationhistory", 
+      "name": "Can delete migration history", 
+      "content_type": [
+        "south", 
+        "migrationhistory"
+      ]
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "root", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2012-02-19 23:28:26", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "sha1$e2ef8$bcb545f2792373ec392f0cd1a15cc55e08038fe9", 
+      "email": "rodrigokoblitz@gmail.com", 
+      "date_joined": "2012-02-19 23:16:06"
+    }
+  }
+]

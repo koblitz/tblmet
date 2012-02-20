@@ -1,0 +1,7 @@
+heroku pgbackups:capture
+heroku pgbackups
+heroku pgbackups:url b004
+download de um endereço dado 
+heroku pgbackups:destroy b003
+
+
