@@ -6,4 +6,4 @@ from grempres.models import TblEmpreendimentos,  TblEmpresas,  TblPessoas
 from gratributos.models import *
 from grdados.models import *
 
-admin.site.register([ TblUnidades, TblAtribs, TblLocais,  TblEmpreendimentos, TblEmpresas, TblPessoas])
+admin.site.register([ TblUnidades, TblAtribs, TblLocais, TblApetrechos, TblMetodos,  TblAtrEts, TblInstrumentais, TblMetIns, TblMetAtEts, TblEmpreendimentos, TblEmpresas, TblPessoas])
