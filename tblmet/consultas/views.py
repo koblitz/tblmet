@@ -9,6 +9,27 @@ from django.views.generic.simple import direct_to_template
 import codecs
 from codecs import *
 
+def platrbtt(request):
+    a=atrsulta()
+    mat = metatetssulta()
+    u = unisulta()
+    ape=apesulta()
+    mett=TblMetodos.objects.all()
+    metatets=TblMetAtEts.objects.all()
+    metatrets=TblAtrEts.objects.all()
+    metins=TblMetIns.objects.all()
+    metapes=TblApetrechos.objects.all()
+        
+    return direct_to_template(request, 'outmettt.html', {
+        'mett': mett, 
+        'metatets':metatets,
+        'metatrets':metatrets, 
+        'metins':metins, 
+        'metapes':metapes, 
+          
+        })
+
+
 def platrb (request):
     a=atrsulta()
     mat = metatetssulta()

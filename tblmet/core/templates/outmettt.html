@@ -1,0 +1,52 @@
+
+<html>
+<title>
+BioLic
+</title>
+<header> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> </header>
+<body>
+<font size="4" face="times new roman" color="black">
+----------BioLic----------
+<p>
+Sistemas de Informação da Biodiversidade do Licenciamento Ambiental Federal - IBAMA
+<p>
+<font size="4" face="times new roman" color="black">
+<P ALIGN="JUSTIFY">
+PLANO DE TRABALHO
+</p>
+<font size="2" face="arial" color="black">
+{% for i in mett%}
+<li>{{i.nome}}</li>
+Informações Gerais:
+<li>{{i.obs}}</li>
+Caracteristicas do método:
+{% for ii in metatets %}
+ {% for iii in metatrets %}
+ {% if i.id == ii.metodo_id  and ii.atributo_estacao_id == iii.id %} 
+<li>{{iii.nome}}-{{ii.atributo}}-{{ii.valor}}-{{ii.unidade}}</li>
+{% endif %}
+  {% endfor %}
+  {% endfor %}
+Apetrechos:
+{% for i4 in metins %}
+{% for i5 in metapes %}
+
+ {% if i4.metodo_id == i.id and i4.apetrecho_id == i5.id %}
+ <li>{{ i4.quantidade}} - {{i5.nome}}</li>
+ {% endif %}
+ {% endfor %}
+ {% endfor %}
+  
+  
+<br><br><br><br><br><br>
+ {% endfor %}
+
+
+
+ 
+<p>
+    <a href="/"> voltar a tela inicial  </a>
+</p>
+
+
+</body>

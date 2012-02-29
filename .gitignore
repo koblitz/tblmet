@@ -5,5 +5,7 @@ include
 lib
 deploy.sh
 deploy-data
-ir
+*.json
+fabfileherokubackup
+
 
