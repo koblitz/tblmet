@@ -26,7 +26,6 @@ def platrbtt(request):
         'metatrets':metatrets, 
         'metins':metins, 
         'metapes':metapes, 
-          
         })
 
 

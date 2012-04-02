@@ -18,6 +18,7 @@ PLANO DE TRABALHO
 {% for i in mett%}
 <li>{{i.nome}}</li>
 Informações Gerais:
+<li>{{i.local}}</li>
 <li>{{i.obs}}</li>
 Caracteristicas do método:
 {% for ii in metatets %}
@@ -27,7 +28,7 @@ Caracteristicas do método:
 {% endif %}
   {% endfor %}
   {% endfor %}
-Apetrechos:
+Apetrechos (por estação):
 {% for i4 in metins %}
 {% for i5 in metapes %}
 
