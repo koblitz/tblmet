@@ -18,10 +18,12 @@ PLANO DE TRABALHO
 {% for i in mett%}
 <li>{{i.nome}}</li>
 Informações Gerais:
-<li>{{i.local}}</li>
 <li>{{i.obs}}</li>
+Local de Amostragem:
+<li>{{i.local}}</li>
 Caracteristicas do método:
 {% for ii in metatets %}
+
  {% for iii in metatrets %}
  {% if i.id == ii.metodo_id  and ii.atributo_estacao_id == iii.id %} 
 <li>{{iii.nome}}-{{ii.atributo}}-{{ii.valor}}-{{ii.unidade}}-{{ii.obs}}</li>
