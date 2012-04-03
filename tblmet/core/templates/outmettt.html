@@ -16,17 +16,19 @@ PLANO DE TRABALHO
 </p>
 <font size="2" face="arial" color="black">
 {% for i in mett%}
-<li>{{i.nome}}</li>
+<B><P>{{i.nome}}</P></B>
 Informações Gerais:
-<li>{{i.obs}}</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{i.obs}}</li>
 Local de Amostragem:
-<li>{{i.local}}</li>
-Caracteristicas do método:
-{% for ii in metatets %}
+<li/>&nbsp;&nbsp;&nbsp;&nbsp{{i.local}}</li>
+Características do método:
+<DL>
+<DD>{% for ii in metatets %}</DD>
+</DL>
 
  {% for iii in metatrets %}
  {% if i.id == ii.metodo_id  and ii.atributo_estacao_id == iii.id %} 
-<li>{{iii.nome}}-{{ii.atributo}}-{{ii.valor}}-{{ii.unidade}}-{{ii.obs}}</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{iii.nome}}-{{ii.atributo}}-{{ii.valor}}-{{ii.unidade}}-{{ii.obs}}</li>
 {% endif %}
   {% endfor %}
   {% endfor %}
@@ -35,13 +37,13 @@ Apetrechos (por estação):
 {% for i5 in metapes %}
 
  {% if i4.metodo_id == i.id and i4.apetrecho_id == i5.id %}
- <li>{{ i4.quantidade}} - {{i5.nome}}</li>
+ <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp{{i4.quantidade}} - {{i5.nome}}</li>
  {% endif %}
  {% endfor %}
  {% endfor %}
   
   
-<br><br><br><br><br><br>
+<br><br>
  {% endfor %}
 
 
